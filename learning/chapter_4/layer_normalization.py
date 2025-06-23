@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-from LayerNorm import LayerNorm
+from learning.chapter_4.LayerNorm import LayerNorm
 
 
 def main():

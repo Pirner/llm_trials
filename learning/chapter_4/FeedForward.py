@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 
-from GELU import GELU
-from config import GPT_CONFIG_124M
+from learning.chapter_4.GELU import GELU
+from learning.chapter_4.config import GPT_CONFIG_124M
 
 
 class FeedForward(nn.Module):

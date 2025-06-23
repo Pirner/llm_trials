@@ -1,8 +1,8 @@
 import tiktoken
 import torch
 
-from config import GPT_CONFIG_124M
-from GPT import GPTModel, generate_text_simple
+from learning.chapter_4.config import GPT_CONFIG_124M
+from learning.chapter_4.GPT import GPTModel, generate_text_simple
 
 
 def main():

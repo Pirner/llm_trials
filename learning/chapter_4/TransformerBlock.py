@@ -2,9 +2,9 @@ import torch
 from torch import nn
 
 from learning.chapter_3.MultiHeadAttention import MultiHeadAttention
-from FeedForward import FeedForward
-from layer_normalization import LayerNorm
-from config import GPT_CONFIG_124M
+from learning.chapter_4.FeedForward import FeedForward
+from learning.chapter_4.layer_normalization import LayerNorm
+from learning.chapter_4.config import GPT_CONFIG_124M
 
 
 class TransformerBlock(nn.Module):

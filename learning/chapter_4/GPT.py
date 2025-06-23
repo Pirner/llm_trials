@@ -2,9 +2,9 @@ import tiktoken
 import torch
 from torch import nn
 
-from config import GPT_CONFIG_124M
-from TransformerBlock import TransformerBlock
-from layer_normalization import LayerNorm
+from learning.chapter_4.config import GPT_CONFIG_124M
+from learning.chapter_4.TransformerBlock import TransformerBlock
+from learning.chapter_4.layer_normalization import LayerNorm
 
 
 class GPTModel(nn.Module):
